@@ -23,16 +23,6 @@ create table if not exists Transaction(
 );
 
 
-
-create table if not exists Staff(
-    staffId int(10) primary key,
-    firstName varchar(30),
-    lastName varchar(30),
-    position varchar(20),
-    department varchar(20),
-    salary numeric(8)
-);
-
 create table if not exists Reservation( 
 	roomId int(6),
     paymentId int(25),
